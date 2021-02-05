@@ -1,2 +1,4 @@
 # SCASC
-Sparse Constraint Adaptive Structure Consistency based Image Regression
+Sparse Constrained Adaptive Structure Consistency based Image Regression
+
+Coming later......
