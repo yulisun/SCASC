@@ -7,7 +7,7 @@ This is a test program for the Sparse Constrained Adaptive Structure Consistency
 
 SCASC is an unsupervised image regression method based on the  structure consistency between heterogeneous images. SCASC first adaptively 
 constructs a similarity graph to represent the structure of pre-event image, then uses the graph to translate the pre-event image to the 
-domain of the post-event image, and then computes the difference image. Finally, a superpixel-based Markovian segmentation model is designed 
+domain of post-event image, and then computes the difference image. Finally, a superpixel-based Markovian segmentation model is designed 
 to segment the difference image into changed and unchanged classes. 
 
 Please refer to the paper for details. You are more than welcome to use the code! 
