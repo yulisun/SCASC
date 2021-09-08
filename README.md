@@ -29,6 +29,7 @@ Please refer to the paper for details. You are more than welcome to use the code
 If you use this code for your research, please cite our paper. Thank you!
 
 @ARTICLE{Sun2021Sparse,
+
   author={Sun, Yuli and Lei, Lin and Guan, Dongdong and Li, Ming and Kuang, Gangyao},  
   journal={IEEE Transactions on Geoscience and Remote Sensing},   
   title={Sparse Constrained Adaptive Structure Consistency based Unsupervised Image Regression for Heterogeneous Remote Sensing Change Detection},   
