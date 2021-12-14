@@ -100,3 +100,7 @@ else
 end
 subplot(132);imshow(remove_outlier(DI),[]);title('Difference image')
 subplot(133);imshow(CM_map,[]);title('Change mape')
+
+if F1 < 0.3
+   fprintf('\n');disp('Please exchange the order of the input images OR select the appropriate opt.alfa for SCASC!')
+end   
