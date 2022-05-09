@@ -2,7 +2,7 @@
 Sparse Constrained Adaptive Structure Consistency based Unsupervised Image Regression for Heterogeneous Remote Sensing Change Detection
 
 ## Introduction
-Code: SCASC - 2021
+MATLAB Code: SCASC - 2021
 This is a test program for the Sparse Constrained Adaptive Structure Consistency based method (SCASC) for heterogeneous change detection.
 
 SCASC is an unsupervised image regression method based on the  structure consistency between heterogeneous images. SCASC first adaptively 
