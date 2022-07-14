@@ -28,7 +28,7 @@ fprintf(['\n Data loading is completed...... ' '\n'])
 % Niter: the maximum number of SCASC iterations, Niter =10 is recommended.
 % lamda: sparse regularization parameter, which should be selected according to the proportion of the changed component. 
 % alfa: balance parameter. The smaller the lambda, the smoother the CM. 0.025<= alfa <=0.1 is recommended.
-opt.Ns = 10000;
+opt.Ns = 5000; % The results in the original paper are generated under Ns=10000, but setting Ns=5000 would be much faster.
 opt.Niter = 10;
 opt.lamda = 0.1;
 opt.alfa = 0.05; % for #2-Texas, alfa = 0.01 is better.
