@@ -46,4 +46,4 @@ thus improving the detection performance.
 
 ## Q & A
 
-If you have any queries, please do not hesitate to contact me (yulisun@mail.ustc.edu.cn ).
+If you have any queries, please do not hesitate to contact me (yulisun@mail.ustc.edu.cn).
