@@ -21,16 +21,19 @@ addpath(genpath(pwd))
 dataset = '#5-Shuguang';% #1-Italy, #2-Texas, #3-Img7, #4-Img17, #5-Shuguang, #6-California, #7-Img5 
 Load_dataset
 fprintf(['\n Data loading is completed...... ' '\n'])
+
 %% Parameter setting
 % With different parameter settings, the results will be a little different
 % Ns: the number of superpxiels,  A larger Ns will improve the detection granularity, but also increase the running time. 5000 <= Ns <= 20000 is recommended.
 % Niter: the maximum number of SCASC iterations, Niter =10 is recommended.
 % lamda: sparse regularization parameter, which should be selected according to the proportion of the changed component. 
 % alfa: balance parameter. The smaller the lambda, the smoother the CM. 0.025<= alfa <=0.1 is recommended.
+
 opt.Ns = 5000; % The results in the original paper are generated under Ns=10000, but setting Ns=5000 would be much faster.
 opt.Niter = 10;
 opt.lamda = 0.1;
 opt.alfa = 0.05; % for #2-Texas, alfa = 0.01 is better.
+
 %% SCASC
 t_o = clock;
 fprintf(['\n SCASC is running...... ' '\n'])
