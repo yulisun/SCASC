@@ -25,6 +25,7 @@ Please refer to the paper for details. You are more than welcome to use the code
 The graphCut algorithm is download from Professor Anton Osokin's webpage at https://github.com/aosokin/graphCutMex_BoykovKolmogorov.
 
 If you use these resources, please cite their relevant papers.
+
 ===================================================
 
 ## Citation
